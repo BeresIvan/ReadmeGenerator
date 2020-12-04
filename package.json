@@ -1,7 +1,7 @@
 {
-  "name": "readmegenerator",
+  "name": "ReadmeGenerator",
   "version": "1.0.0",
-  "description": "Professional README Generator",
+  "description": "Project Title: \r Professional READMe Generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/BeresIvan/ReadmeGenerator.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BeresIvan/ReadmeGenerator/issues"
   },
-  "homepage": "https://github.com/BeresIvan/ReadmeGenerator#readme"
+  "homepage": "https://github.com/BeresIvan/ReadmeGenerator#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "inquirer": "^7.3.3"
+  }
 }

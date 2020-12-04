@@ -1,11 +1,11 @@
 // External packages
 const inquirer = require('inquirer');
 const fs = require('fs');
-const util = require('util');
+const utilities = require('utilities');
 
 // Internal modules
-const api = require('./utils/api.js');
-const generateMarkdown = require('./utils/generateMarkdown.js');
+const api = require('./utilities/api.js');
+const generateMarkdown = require('./utilities/generateMarkdown.js');
 
 // Inquirer prompts for userResponses
 const questions = [
@@ -13,7 +13,7 @@ const questions = [
         type: 'input',
         message: "What is your GitHub username?",
         name: 'username',
-        default: 'connietran-dev',
+        default: 'ivanberes',
         validate: function (answer) {
             if (answer.length < 1) {
                 return console.log("A valid GitHub username is required.");
@@ -80,7 +80,7 @@ const questions = [
     {
         type: 'list',
         message: "Choose a license for your project.",
-        choices: [],
+        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'Boost Software License 1.0', 'The Unlicense'],
         name: 'license'
     }
 ];
