@@ -26,7 +26,7 @@ function generateMarkdown(userResponses, userInfo) {
     
     ## Description 
     
-    *The what, why, and how:* 
+    *The project* 
     
     ${userResponses.description}
     `
