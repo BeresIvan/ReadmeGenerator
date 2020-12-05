@@ -1,11 +1,10 @@
 // External packages
 const inquirer = require('inquirer');
 const fs = require('fs');
-const utils = require('utils');
 
 // Internal modules
-const api = require('./utils/api.js');
-const generateMarkdown = require('./utils/generateMarkdown.js');
+const api = require('./api.js');
+const generateMarkdown = require('./generateMarkdown.js');
 
 // Inquirer prompts for userResponses
 const questions = [
