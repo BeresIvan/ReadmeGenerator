@@ -1,5 +1,5 @@
 {
-  "name": "ReadmeGenerator",
+  "name": "readmegenerator",
   "version": "1.0.0",
   "description": "Project Title: \r Professional READMe Generator",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/BeresIvan/ReadmeGenerator.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "ivanberes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BeresIvan/ReadmeGenerator/issues"
@@ -20,5 +20,6 @@
   "dependencies": {
     "axios": "^0.21.0",
     "inquirer": "^7.3.3"
-  }
+  },
+  "devDependencies": {}
 }
