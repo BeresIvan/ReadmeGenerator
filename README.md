@@ -28,8 +28,10 @@ Table of Contents:
 * The project repository: https://github.com/BeresIvan/READMEGenerator
 * The README.MD file with all the instructions: https://github.com/BeresIvan/READMEGenerator/README.md
 * The Index.js, api.js ans generateMarkdown.js file contains all the dependencies
-* The package.json file contains the packages
+* The package.json and package-lock.json files contains the packages.
 * The .gitignore file containes all off the files names to ignore.
+* assets folder with the demo video
+* utils folder with the api.js and generataMarkdown,js files.
 
 Current status and updates:
 * Created the file and folder structure of the website using Git Bash.
@@ -40,4 +42,5 @@ Installation
 - Go to the repository page by following the link: https://github.com/BeresIvan/READMEGenerator
 - Clone the repository using the "git clone" command in the command line.
 - Open the files in visual studio code using the ". code" command in the command line.
-- The web page can be accessed using this link 
+- install npm and require
+- Start the application by entering node index.js and follow the on screen instuctions.
