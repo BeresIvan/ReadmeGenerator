@@ -30,8 +30,9 @@ Table of Contents:
 * The Index.js, api.js ans generateMarkdown.js file contains all the dependencies
 * The package.json and package-lock.json files contains the packages.
 * The .gitignore file containes all off the files names to ignore.
-* assets folder with the demo video
+* assets folder with the demo video : https://drive.google.com/file/d/1WpjvbZ4T6WiAATYIMJ1c-m8CT5KKUyMu/view?usp=sharing
 * utils folder with the api.js and generataMarkdown,js files.
+* Example readme file: https://github.com/BeresIvan/ReadmeGenerator/blob/main/ExampleREADME.md
 
 Current status and updates:
 * Created the file and folder structure of the website using Git Bash.
@@ -44,3 +45,4 @@ Installation
 - Open the files in visual studio code using the ". code" command in the command line.
 - install npm and require
 - Start the application by entering node index.js and follow the on screen instuctions.
+- Installation video: https://drive.google.com/file/d/1WpjvbZ4T6WiAATYIMJ1c-m8CT5KKUyMu/view?usp=sharing
