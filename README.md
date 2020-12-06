@@ -27,7 +27,7 @@ Table of Contents:
 
 * The project repository: https://github.com/BeresIvan/READMEGenerator
 * The README.MD file with all the instructions: https://github.com/BeresIvan/READMEGenerator/README.md
-* The Index.js file contains all the dependencies
+* The Index.js, api.js ans generateMarkdown.js file contains all the dependencies
 * The package.json file contains the packages
 * The .gitignore file containes all off the files names to ignore.
 
@@ -40,4 +40,4 @@ Installation
 - Go to the repository page by following the link: https://github.com/BeresIvan/READMEGenerator
 - Clone the repository using the "git clone" command in the command line.
 - Open the files in visual studio code using the ". code" command in the command line.
-- The web page can be accessed using this link https://beresivan.github.io/READMEGenerator
+- The web page can be accessed using this link 
